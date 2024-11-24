@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="navbar">
+        <div>
+            <label for="brand">Select Brand:</label>
+            <select id="brand">
+                <option value="">--Select Brand--</option>
+                <option value="Samsung">Samsung</option>
+                <option value="Apple">Apple</option>
+                <option value="Xiaomi">Xiaomi</option>
+            </select>
+        </div>
+        <div>
+            <label for="model">Select Model:</label>
+            <select id="model" disabled>
+                <option value="">--Select Model--</option>
+            </select>
+        </div>
+        <button id="search">Search</button>
+    </div>
+
+    <div class="result" id="result"></div>
+    <script src="app.js"></script>
+</body>
+</html>

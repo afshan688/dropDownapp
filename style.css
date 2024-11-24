@@ -1,0 +1,45 @@
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(https://png.pngtree.com/thumb_back/fh260/background/20230701/pngtree-marketing-material-creative-3d-render-of-mobile-mockup-for-social-media-image_3701737.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.navbar {
+    background-color: lightskyblue;
+    padding: 15px;
+    color: palevioletred;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar select, .navbar button {
+    padding: 10px;
+    font-size: 16px;
+    margin: 0 5px;
+    border: none;
+    border-radius: 5px;
+}
+.navbar select {
+    background-color: orange;
+    color: #333;
+}
+.navbar button {
+    background-color: orange;
+    color: white;
+    cursor: pointer;
+}
+.navbar button:hover {
+    background-color: #218838;
+}
+.result {
+    margin: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.features {
+    margin-top: 10px;
+    color: white;
+}  
